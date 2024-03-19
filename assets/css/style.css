@@ -1,0 +1,17 @@
+.todo-item {
+    cursor: pointer;
+}
+
+.todo-text {
+    position: relative;
+}
+
+.todo-text::after {
+    content: '';
+    height: 100%;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
